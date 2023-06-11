@@ -18,7 +18,8 @@ function Checkout(props) {
             <div className="ppCssBtn">
               <PayPalScriptProvider
                 options={{
-                  "client-id": process.env.CLIENT_ID,
+                  "client-id":
+                    "CLIENT_ID=AfT8NHETB39k-q9iFS7HNAEG_M4ydnz1znCYAX1MxvbUUSiB77DfaZAMzhmReoZQDgKEITMR6h9U0eHv",
                 }}
               >
                 <PayPalButtons
