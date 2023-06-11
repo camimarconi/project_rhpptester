@@ -19,7 +19,7 @@ function Checkout(props) {
               <PayPalScriptProvider
                 options={{
                   "client-id":
-                    "CLIENT_ID=AfT8NHETB39k-q9iFS7HNAEG_M4ydnz1znCYAX1MxvbUUSiB77DfaZAMzhmReoZQDgKEITMR6h9U0eHv",
+                    "AfT8NHETB39k-q9iFS7HNAEG_M4ydnz1znCYAX1MxvbUUSiB77DfaZAMzhmReoZQDgKEITMR6h9U0eHv",
                 }}
               >
                 <PayPalButtons
