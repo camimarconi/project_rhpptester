@@ -1,38 +1,76 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.App_H1 {
+  color: saddlebrown;
+  text-decoration: underline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.imgCss {
+  margin: 15px;
+}
+
+.description {
+  width: 60%;
+}
+.btnCss {
+  width: 150px;
+  height: 50px;
+  background-color: saddlebrown;
+  color: sandybrown;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  color: saddlebrown;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: saddlebrown;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.margin {
+  margin: 10px;
+}
+
+.marginBtn {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.thxCss {
+  display: flex;
+  justify-content: center;
+  color: saddlebrown;
+  margin: 30px;
+}
+
+.imgtnx {
+  width: 15%;
+}
+
+.ppCssBtn {
+  width: 350px;
 }
